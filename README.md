@@ -16,12 +16,12 @@ I use .net core 6 instead of 7.0, just because .net core 6 is a long-time suppor
 
 ## This solution is based on the below assumptions:
 
-- Only allow on toy robot on the table
+- Only allow one toy robot on the table
 - Do not need create the table (This can be done with new command if needed)
 - Do not need save toy robot information.
 - Do not add the cache, but could add this if needed.
 - No log needed. But could add NLog or Serilog with lines of code
-- I added two commands for debug purpose: reset(), exit()
+- I added two commands for debug purpose: reset(), exit
 
 ## Folder Description
 
@@ -33,7 +33,6 @@ I use .net core 6 instead of 7.0, just because .net core 6 is a long-time suppor
 
 - `ConsoleApp` main project
 - `Application`
-- `Infrastructure`
 - `Domain`
 
 ## run program
@@ -42,7 +41,3 @@ I use .net core 6 instead of 7.0, just because .net core 6 is a long-time suppor
 
 You could start the project with Visual Studio and `Run` or `Debug` the **ToyRobotConsole** project
 
-### run with docker
-
-run below command at root
-`docker compose up`
