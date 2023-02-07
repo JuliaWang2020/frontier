@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AC0CCD34-91E7-4C8B-BCF2-E7BFFB9B765B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToyRobotConsole", "src\ToyRobotConsole\ToyRobotConsole.csproj", "{2E182BAF-7D39-4168-AE02-8330246D963A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frontier.CodeChallange.Application", "src\Frontier.ToyRobot.Application\Frontier.CodeChallange.Application.csproj", "{35387ECF-79D8-432E-8E52-6BA496CF49B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frontier.CodeChallange.Domain", "src\Frontier.ToyRobot.Domain\Frontier.CodeChallange.Domain.csproj", "{A0D075A1-050E-4C21-A936-F2C96681F89F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AEF598E7-A171-4135-98BD-7AD4CFE8D3B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frontier.CodeChallange.Application.Tests", "tests\Frontier.CodeChallange.Application.Tests\Frontier.CodeChallange.Application.Tests.csproj", "{7F574CC1-4EBF-46F4-88BA-8E9EDF24B3B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frontier.CodeChallange.IntegrationTests", "tests\Frontier.CodeChallange.IntegrationTests\Frontier.CodeChallange.IntegrationTests.csproj", "{CE623AC7-AC64-4998-A4D3-F25E6628BA09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E182BAF-7D39-4168-AE02-8330246D963A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E182BAF-7D39-4168-AE02-8330246D963A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E182BAF-7D39-4168-AE02-8330246D963A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E182BAF-7D39-4168-AE02-8330246D963A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35387ECF-79D8-432E-8E52-6BA496CF49B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35387ECF-79D8-432E-8E52-6BA496CF49B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35387ECF-79D8-432E-8E52-6BA496CF49B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35387ECF-79D8-432E-8E52-6BA496CF49B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0D075A1-050E-4C21-A936-F2C96681F89F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0D075A1-050E-4C21-A936-F2C96681F89F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0D075A1-050E-4C21-A936-F2C96681F89F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0D075A1-050E-4C21-A936-F2C96681F89F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F574CC1-4EBF-46F4-88BA-8E9EDF24B3B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F574CC1-4EBF-46F4-88BA-8E9EDF24B3B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F574CC1-4EBF-46F4-88BA-8E9EDF24B3B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F574CC1-4EBF-46F4-88BA-8E9EDF24B3B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE623AC7-AC64-4998-A4D3-F25E6628BA09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE623AC7-AC64-4998-A4D3-F25E6628BA09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE623AC7-AC64-4998-A4D3-F25E6628BA09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE623AC7-AC64-4998-A4D3-F25E6628BA09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2E182BAF-7D39-4168-AE02-8330246D963A} = {AC0CCD34-91E7-4C8B-BCF2-E7BFFB9B765B}
+		{35387ECF-79D8-432E-8E52-6BA496CF49B2} = {AC0CCD34-91E7-4C8B-BCF2-E7BFFB9B765B}
+		{A0D075A1-050E-4C21-A936-F2C96681F89F} = {AC0CCD34-91E7-4C8B-BCF2-E7BFFB9B765B}
+		{7F574CC1-4EBF-46F4-88BA-8E9EDF24B3B7} = {AEF598E7-A171-4135-98BD-7AD4CFE8D3B5}
+		{CE623AC7-AC64-4998-A4D3-F25E6628BA09} = {AEF598E7-A171-4135-98BD-7AD4CFE8D3B5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21F0FBC8-7A88-48D0-823A-63503CC575AA}
+	EndGlobalSection
+EndGlobal
